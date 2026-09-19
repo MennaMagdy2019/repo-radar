@@ -1,0 +1,21 @@
+{
+  "name": "radar-workspace",
+  "private": true,
+  "workspaces": [
+    "repo-radar",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "npm --workspace repo-radar run dev",
+    "build": "npm --workspace repo-radar run build",
+    "lint": "npm --workspace repo-radar run lint",
+    "test": "npm --workspace repo-radar run test",
+    "storybook": "npm --workspace repo-radar run storybook"
+  },
+  "devDependencies": {
+    "@storybook/addon-a11y": "^10.6.0",
+    "@storybook/react": "^10.6.0",
+    "@storybook/react-vite": "^10.6.0",
+    "storybook": "^10.6.0"
+  }
+}

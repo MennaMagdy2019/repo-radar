@@ -1,0 +1,16 @@
+{
+  "name": "@radar/plots",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.12.0",
+    "react-redux": "^9.3.0"
+  },
+  "peerDependencies": {
+    "react": ">=19.0.0"
+  }
+}

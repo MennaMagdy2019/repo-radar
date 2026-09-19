@@ -1,0 +1,20 @@
+{
+  "name": "@radar/ui",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "peerDependencies": {
+    "react": ">=19.0.0",
+    "react-dom": ">=19.0.0"
+  },
+  "dependencies": {
+    "@mui/icons-material": "^9.4.0",
+    "@mui/material": "^9.4.0",
+    "@mui/x-charts": "^9.14.0",
+    "@radar/plots": "file:../plots",
+    "reselect": "^5.3.0"
+  }
+}
