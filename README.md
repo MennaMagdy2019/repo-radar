@@ -1,4 +1,4 @@
-# Radar
+# Repo Radar
 
 GitHub repository monitoring dashboard built with React 19, TypeScript, Redux Toolkit, RTK Query, and MUI.
 
