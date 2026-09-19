@@ -1,0 +1,12 @@
+
+> build:storybook
+> npm --workspace repo-radar run build-storybook --output-dir=C:\Users\LOQ\AppData\Local\Temp\chromatic--22140-uEnXeft1ZOyp
+
+
+> radar@0.0.0 build-storybook
+> storybook build
+
+[90m│[39m
+[31m■[39m  To run Storybook, you need Node.js version 20.19+ or 22.12+.
+[90m│[39m  You are currently running Node.js v20.17.0. Please upgrade your
+[90m│[39m  Node.js installation.
