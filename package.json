@@ -10,7 +10,8 @@
     "build": "npm --workspace repo-radar run build",
     "lint": "npm --workspace repo-radar run lint",
     "test": "npm --workspace repo-radar run test",
-    "storybook": "npm --workspace repo-radar run storybook"
+    "storybook": "npm --workspace repo-radar run storybook",
+    "build:storybook": "npm --workspace repo-radar run build-storybook"
   },
   "devDependencies": {
     "@storybook/addon-a11y": "^10.6.0",

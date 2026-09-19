@@ -38,3 +38,11 @@ RTK Query owns repository data, caching, request cancellation, loading/error sta
 
 The root `vercel.json` configures Vercel to install from the workspace root, run `npm run build`, and serve `repo-radar/dist`. Configure the Vercel project root as the repository root.
 
+To deploy Storybook, create a second Vercel project linked to this repository and use these Build and Deployment settings:
+
+- Root Directory: repository root
+- Framework Preset: Other
+- Install Command: `npm install`
+- Build Command: `npm run build:storybook`
+- Output Directory: `repo-radar/storybook-static`
+

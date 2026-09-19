@@ -13,6 +13,7 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build",
     "preview": "vite preview"
   },
   "dependencies": {
