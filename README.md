@@ -1,7 +1,11 @@
-# Repo Radar
+# Repo Radar : https://repo-radar-phi.vercel.app?_vercel_share=NLvFBdCNhoUiatpq6P3b7vMK5qHClZxm
 
 GitHub repository monitoring dashboard built with React 19, TypeScript, Redux Toolkit, RTK Query, and MUI.
 
+## Links
+
+website: https://repo-radar-phi.vercel.app?_vercel_share=NLvFBdCNhoUiatpq6P3b7vMK5qHClZxm
+storybook: https://mennamagdy2019.github.io/repo-radar/?path=/story/ui-repocard--loaded
 ## Setup
 
 Use Node.js `20.19+`. The required version is documented in `.node-version`.
@@ -34,15 +38,4 @@ This is an npm-workspaces monorepo:
 
 RTK Query owns repository data, caching, request cancellation, loading/error state, individual refreshes, and refresh-all orchestration. The Redux slice stores only tracked repository names, avoiding duplicate server data in ordinary Redux state.
 
-## Deployment
-
-The root `vercel.json` configures Vercel to install from the workspace root, run `npm run build`, and serve `repo-radar/dist`. Configure the Vercel project root as the repository root.
-
-To deploy Storybook, create a second Vercel project linked to this repository and use these Build and Deployment settings:
-
-- Root Directory: repository root
-- Framework Preset: Other
-- Install Command: `npm install`
-- Build Command: `npm run build:storybook`
-- Output Directory: `repo-radar/storybook-static`
 
